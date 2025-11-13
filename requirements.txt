@@ -1,0 +1,12 @@
+# Core ML Libraries (Залежно від версії CUDA, яку ви використовували)
+# Рекомендовано використовувати версію, скомпільовану під вашу CUDA (наприклад, cu118)
+# Приклад для PyTorch 2.1 з CUDA 11.8:
+# torch @ [https://download.pytorch.org/whl/cu118/torch-2.1.0%2Bcu118-cp310-cp310-win_amd64.whl](https://download.pytorch.org/whl/cu118/torch-2.1.0%2Bcu118-cp310-cp310-win_amd64.whl)
+# torchvision @ [https://download.pytorch.org/whl/cu118/torchvision-0.16.0%2Bcu118-cp310-cp310-win_amd64.whl](https://download.pytorch.org/whl/cu118/torchvision-0.16.0%2Bcu118-cp310-cp310-win_amd64.whl)
+
+# Бібліотеки для обробки зображень та системи
+Pillow
+plyer
+numpy
+
+# Якщо ви встановили Real-ESRGAN через git clone, переконайтеся, що всі його залежності (наприклад, opencv-python, basicsr) також встановлені.
